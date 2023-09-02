@@ -1,0 +1,292 @@
+body {
+    margin: -15px 0px;
+
+}
+
+.body {
+    background-image: url(../image/lukas-hellebrand-E1S962T0g5c-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 751px;
+    color: thistle;
+}
+
+.section_nav h2 {
+    float: left;
+    margin: 12px;
+    color: #de2d49;
+    border-right: 2px solid;
+    padding-right: 13px;
+    font-weight: unset;
+    font-size: 44px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+.section_nav li {
+    float: right;
+    list-style: none;
+    width: 7%;
+    text-align: center;
+    padding: 7px;
+    margin-top: 11px;
+    font-weight: bold;
+    margin-bottom: 90px;
+    font-family: sans-serif;
+    margin-right: 9px;
+    border-bottom: 2px solid thistle;
+}
+
+.clear {
+    clear: both;
+}
+
+.angles {
+    margin-top: 36px;
+    font-size: 26px;
+    font-family: cursive;
+}
+
+.welcome {
+    margin: 50px 0px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.haf {
+    text-align: center;
+}
+
+.learn-more {
+    padding: 20px;
+    background-color: #013c77;
+    border: none;
+    border-radius: 12px;
+    font-size: unset;
+    color: thistle;
+}
+
+.content-us {
+    font-size: unset;
+    background-color: #a9273e;
+    padding: 20px;
+    color: thistle;
+    border: solid 1px #045897;
+    border-radius: 13px;
+}
+
+.child-about-image {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.child-about-word {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.child-about-image img {
+    width: 90%;
+    border-radius: 33px;
+    height: 100%;
+}
+
+.About {
+    margin-top: 34px;
+    padding: 23px;
+    height: 505px;
+}
+
+.child-about-word li {
+    text-align: left;
+    list-style: unset;
+    line-height: 33px;
+    font-size: x-large;
+    color: #6d6d6df5;
+}
+
+.child-about-word ul {
+    margin-top: 25px;
+    margin-left: -19px;
+}
+
+.child-about-word p {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 27px;
+    color: #6d6d6df5;
+    font-size: 17px;
+}
+
+.our-locatin {
+    background-color: #201d1d12;
+    border-radius: 18px;
+    height: 410px;
+}
+
+.our-locatin-word {
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+}
+
+.our-locatin-image {
+    float: left;
+    width: 50%;
+    text-align: right;
+    height: 410px;
+}
+
+.our-locatin-word p {
+    font-family: system-ui;
+    line-height: 29px;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.our-locatin-word h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.our-locatin-image img {
+    width: 82%;
+    border-radius: 18px;
+    height: 100%;
+}
+
+.Our-Backing {
+    text-align: center;
+}
+
+.Our-Backing h2 {
+    font-size: 35px
+}
+
+.Our-Backing p {
+    font-family: system-ui;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Our-Backing-child {
+    float: left;
+    width: 23%;
+    padding: 5%;
+}
+
+.Our-Backing-child img {
+    width: 100%;
+}
+
+.Contact-Information {
+    text-align: center;
+    background-color: #201d1d12;
+}
+
+.Contact-Information-child {
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 5%;
+}
+
+.Contact-Information-child h2 {
+    font-size: 35px;
+}
+
+.Contact-Information-child p {
+    font-family: system-ui;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Contact-Information-child img {
+    width: 80%;
+}
+
+.Contact-Information-child-p {
+    text-align: left;
+}
+
+.Contact-Information-child li {
+    text-align: left;
+    line-height: 27px;
+    font-family: system-ui;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+}
+
+.detalis {
+    background-color: #000000;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: auto;
+    padding: 55px 0px;
+}
+
+.detalis .child {
+    float: left;
+    width: 23%;
+    padding: 0px 1px;
+
+}
+
+.detalis .child p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.detalis .child li {
+    padding: 10px 0px;
+    font-family: system-ui;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 0px;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer p {
+    color: aliceblue;
+}
+
+
+
+.footer {
+    margin-top: -16px;
+    border-top: 1px solid #ffffff;
+    padding: 13px 0px;
+    font-family: system-ui;
+    line-height: 29px;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: thistle;
+}

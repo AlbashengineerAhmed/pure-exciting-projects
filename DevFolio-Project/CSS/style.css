@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+                                                 /* Navebar */
+.navbar {
+    z-index: 20;
+}
+
+.navbar-dark .navbar-brand{
+    color: tomato;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+                                                      /* back grond image */
+.background-photo {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+                                                        /* Media Navbar */
+@media screen and (max-width:992px) {
+    .navbar-nav {
+        align-items: center;
+        justify-content: center;
+    }
+    .end-0{
+        left: 0;
+    }
+    .nv .position-absolute {
+        position: static !important;
+        background-color: rgb(2, 2, 2);
+    }
+}
+                                                    /* overlaye on Photo  */
+.overlay {
+    background-color: rgba(33, 33, 33, 0.2);
+}
+
+                                                     /* Name in Front Bage */
+.index{
+    z-index: 125;
+    color: white; font-weight: 700;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+                                                  /* animation bage */
+.anima::before{
+    
+    color: rgb(228, 10, 228);
+    content: '';
+    animation: animate infinite 5s;
+}
+@keyframes animate {
+    0%,100%{
+        content: 'Ahmed Mohamed';
+    }
+    25%{
+        content: 'Belal Mohamed';
+    }
+    50%{
+        content: 'Yousef Mohamed';
+    }
+    75%{
+        content: 'Alaa Mohamed';
+    }
+    
+}
+.movee{
+    width: 0ch;
+    z-index: 15868;
+    color: tomato;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    /* animation: text 5s steps(13) infinite alternate; */
+    animation: text 5s infinite alternate;
+    border-right: 3px solid white;
+}
+@keyframes text {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 12ch;
+    }
+}
+
+                          /* rate of programming language */
+.outbox{
+    width: 400px;
+    margin: 7px 15px 0px;
+    /* background-color: tomato; */
+}
+
+                          /* line under word */
+                            ☺زهقت ☺ من كتر ☺التعليقات ☺ابقى كمليهم
+.line {
+    height: 5px;
+    width: 35px;
+    background-color: #007bff;
+    margin-bottom: 25px;
+    margin: 0 auto;
+}
+
+                   /* line in first dev */
+.abo{
+    width:120px;
+    margin-left: 0;
+}
+
+                    /* section services */
+.card .redius img {
+    width: 70%;
+}
+
+.redius {
+    /* background-color: indigo; */
+    width: 100px;
+    height: 100px;
+    border: 8px solid #007bff;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .redius {
+    margin-bottom: 5px;
+    transition: 0s;
+}
+
+.card:hover .redius {
+    background-color: rgba(0, 123, 255, 0.8);
+    border: 8px solid rgba(156, 212, 250, 0.924);
+    padding: 10px;
+    width: 95px;
+    height: 95px;
+    transition: 0.3s;
+}
+
+.card-body {
+    text-align: center;
+    background-color: white;
+}
+
+.fit-image .circle img {
+    width: 95%;
+}
+
+.fit-image p {
+    margin-top: 10px;
+    font-size: 22px;
+    color: white;
+    /* background-color: blueviolet; */
+}
+
+.circle #wide {
+    width: 150px;
+    font-size: 14px;
+    background-color: tomato;
+}
+
+.photo {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.circle {
+    background-color: whitesmoke;
+    border: 8px solid whitesmoke;
+    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.pos {
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+    z-index: 1548;
+}
+
+.pos h3 {
+    font-weight: 600;
+}
+
+.pos p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.scale {
+    width: 100%;
+    transition: 1s;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card:hover .scale {
+    transform: scale(1.2);
+}
+
+.carousel-inner {
+    width: 50%;
+    margin: auto;
+}
+
+.over {
+    background-color: rgba(0, 123, 255, 0.7);
+}
+
+.hit {
+    height: 700px;
+}
+
+.fit {
+    width: 200px;
+}
+
+.sma {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.imag {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.wid {
+    width: 85px;
+    margin: 0px 12px 15px;
+}
+
+.bi {
+    height: 900px;
+}
+@media screen and (max-width:768px){
+    .bi{
+        
+        margin-top: 40px;
+        height: 1600px;
+    }
+    .bl{
+        margin-top: 50px;
+        width: 80%;
+    }
+    .sty{
+        height: 350px;
+    }
+    .nh{
+        height: 120px;
+        margin-bottom: 25px;
+    }
+
+    .circle{
+        border-radius: 50%;
+    }
+    .fit-image{
+        /* background-color: violet; */
+        height: 150px;
+    }
+    .am{
+        display: flex;
+    }
+}
+
+.ord li {
+    display: flex;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.ord li p {
+    margin-top: 17px;
+}
+
+.ord li img {
+    width: 30px;
+    margin: 15px;
+}
+
+.ode {
+    width: 80%;
+    display: flex;
+    /* background-color: palevioletred; */
+}
+
+.ode li {
+    display: flex;
+    /* background-color: orangered; */
+}
+
+.ode li img {
+    width: 40px;
+    /* border: 4px solid #007bff; */
+    border-radius: 50%;
+    margin-right: 25px;
+    /* background-color: palegreen; */
+}

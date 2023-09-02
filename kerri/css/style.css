@@ -1,0 +1,240 @@
+.navbar-scrolled {
+    background-color: #323232; /* Set your desired background color */
+    transition: background-color 0.3s ease-in-out;
+}
+
+#home
+{
+    background-image: url(../imgs/header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+::selection
+{
+    background-color: rgb(180, 175, 175);
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.home-cap button:hover
+{
+    background-color: white;
+    color: black !important;
+}
+.home-cap button
+{
+    transition: all 0.5s;
+}
+.header-desc {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.home-cap h1
+{
+    font-size: 50px !important;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: white !important;
+    transition:  all 0.5s;
+}
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: #e65f78 !important;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover 
+{
+    color: #e65f78 !important;
+}
+.navbar
+{
+    padding: 10px 0px !important;
+}
+.setting
+{
+    background-color: #2b2424;
+    padding: 10px;
+    top: 20%;
+}
+.setting .fas 
+{
+    font-size: 20px;
+}
+.up
+{
+    bottom: 30px;
+    background-color: #e65f78;
+    right: 30px;
+    padding: 10px;
+}
+.up i
+{
+    font-size: 25px;
+}
+.scroll
+{
+    width: 30px;
+    height: 45px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 2s infinite;
+}
+#home .scroll::after
+{
+    content: "";
+    width: 3px;
+    height: 8px;
+    background-color:  white;
+    position:  absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translateX(-50%) ;
+}
+@keyframes scroll{
+    0%{  bottom: 10%;}
+    25%{ bottom: 11%;}
+    50%{ bottom: 12%;}
+    75%{ bottom: 13%;}
+    100%{ bottom: 10%;}
+}
+
+/* *************** */
+.section-subtitle {
+    max-width: 500px !important;
+}
+
+
+.carousel-indicators button
+{
+    background-color: #e65f78 !important;
+    width: 10px !important;
+    height: 10px !important;
+   
+   border: 1px solid transparent !important ;
+   border-radius: 50% !important;
+
+}
+.carousel .carousel-indicators button
+{
+    width: 10px !important;
+    height: 5px !important;
+    background-color: #e65f78 !important;
+    border: 1px solid transparent;
+    border-radius: 20px !important;
+}
+.carousel .carousel-indicators button.active
+{
+  width: 20px !important;
+}
+.our-width
+{
+    width: 700px;
+}
+
+.client i
+{
+    color: #e65f78 !important;
+}
+.work-layer
+{
+    background-color: rgba(0, 0, 0, 0.69);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.work-item:hover .work-layer
+{
+    opacity: 1;
+}
+.work-details
+{
+    position: relative;
+    top: 50%;
+    transition: 0.5s;
+}
+.work-item:hover .work-details
+{
+   top: 0;
+}
+.work-item:hover img
+{
+    transform: scale(1.1);
+}
+.work-item img
+{
+    transition: all 0.5s;
+}
+#portfolio .nav-item .active
+{
+    background-color: #e65f78 !important;
+    color: white !important;
+    border: 1px solid #e65f78 !important;
+    border-radius: 50px !important;
+}
+.nav-item button
+{
+    color: black !important;
+    margin: 0px 5px !important;
+    transition:  all 0.5s;
+}
+#portfolio .nav-item button:hover
+{
+    background-color: #e65f78 !important;
+    color: white !important;
+    border: 1px solid #e65f78 !important;
+    border-radius: 50px !important;
+}
+.main-color
+{
+    color: #e65f78 !important;
+}
+.icon
+{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    transition: all 0.5s;
+
+}
+.icon i
+{
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.icon:hover i
+{
+    color: #e65f78 !important;
+    
+}
+.icon:hover
+{
+    border-color: #e65f78 !important;
+}
+
+.card
+{
+    border: none !important;
+}
+#contact button
+{
+    background-color: #e65f78 !important;
+    color: white;
+}
+
+.line
+{
+    width: 30px;
+    height: 2px;
+    background-color: #e65f78;
+    transition: all 0.5s;
+
+}
+.info:hover .line
+{
+    width: 50px;
+}
