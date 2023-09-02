@@ -15,11 +15,11 @@
 - CSS3
 - JavaScript
 - Bootstrap
-- Mention any other technologies you used.
+- More.........
 
 ## Installation
 
 ```bash
 git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+cd your project
 open index.html
